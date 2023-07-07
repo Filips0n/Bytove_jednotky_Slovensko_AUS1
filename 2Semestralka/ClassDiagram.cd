@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Triedenie&lt;K, T, V&gt;">
+    <Position X="7.25" Y="0.5" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABAAAIAAAAAEAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Triedenie.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="kriterium" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="ObecData">
+    <Position X="1" Y="7.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BAAAgQAAAAQAQAAABABA0IAAAAAAAAAgAABAARAAAAA=</HashCode>
+      <FileName>ObecData.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UzemnaJednotka">
+    <Position X="4.25" Y="7.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>DAAAAAAAACAAAoAAigAAAAAAEAAAIAAAAAjAAAAAAgA=</HashCode>
+      <FileName>UzemnaJednotka.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="typ" />
+      <Field Name="obecData" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Kriterium&lt;T, O&gt;">
+    <Position X="13.5" Y="0.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Kriterium.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KriteriumUJ&lt;T&gt;">
+    <Position X="13.5" Y="2" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KriteriumUJ.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJCelkovaVymera">
+    <Position X="13.5" Y="6.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJCelkovaVymera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJPocetPoprodObyv" Collapsed="true">
+    <Position X="18.75" Y="7" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJPocetPoprodObyv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJPocetPredprodObyv" Collapsed="true">
+    <Position X="17.25" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJPocetPreprodObyv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJPocetProduktObyv" Collapsed="true">
+    <Position X="16" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJPocetProduktObyv.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJZastavanaPlocha" Collapsed="true">
+    <Position X="12.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJZastavanaPlocha.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJZastavanost" Collapsed="true">
+    <Position X="11.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJZastavanost.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJNazov">
+    <Position X="10.25" Y="3.75" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJNazov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="KUJPocetObyvatelov">
+    <Position X="16.75" Y="3.75" Width="3.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>KUJPocetObyvatelov.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter&lt;K, T, V&gt;">
+    <Position X="24.75" Y="0.5" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Filter.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="kriterium" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="FilterPodlaHodnoty&lt;K, T, V&gt;">
+    <Position X="22.75" Y="3" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAEAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPodlaHodnoty.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterPodlaIntervalu&lt;K, T, V&gt;">
+    <Position X="27.25" Y="3" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAQACAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>FilterPodlaIntervalu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StromUzemneJednotky">
+    <Position X="3.75" Y="3.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAEAAFAACAAAAEAAAAQAIAAgAAAAAAAEAAhAA=</HashCode>
+      <FileName>StromUzemneJednotky.h</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="koren" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="TypUzemnejJednotky">
+    <Position X="9" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAAAAAAAQAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>TypUzemnejJednotky.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ADT">
+      <UniqueIdentifier>{734095ec-621a-40bd-9454-8a8bb48447f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT">
+      <UniqueIdentifier>{e3745994-4d0e-48bf-8214-34a7acf171c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Other">
+      <UniqueIdentifier>{ebc9e72c-b800-4d1b-8b18-6c63a49a6511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\array">
+      <UniqueIdentifier>{938a62e5-9750-4041-a264-8d239f7dbb9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\list">
+      <UniqueIdentifier>{ff2bc429-f74e-4e35-9a2d-f802616638ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\priority_queue">
+      <UniqueIdentifier>{00a9182e-b859-47d5-8b27-31c9b0fba33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\vector">
+      <UniqueIdentifier>{3f8c81cf-0191-474a-b5bc-341f71c74960}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ADT\vector">
+      <UniqueIdentifier>{b6ba8aed-be52-418c-b5e9-8b36740f2c80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Filter">
+      <UniqueIdentifier>{d49a49e8-1ed4-4c53-b232-b3c0fb208d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sort">
+      <UniqueIdentifier>{95b6c0c7-7ad1-4c3f-848f-1ece689db1b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Kriterium">
+      <UniqueIdentifier>{d6de6c15-be70-4bc4-b668-58f74e7e42af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Other">
+      <UniqueIdentifier>{604a0614-88cd-42fa-bed0-31155ee1edea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\table">
+      <UniqueIdentifier>{a417ce16-e2d0-4580-9430-97b0f9d5ccfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADT\tree">
+      <UniqueIdentifier>{3aaa65be-c56e-4e99-93ae-9e1ed3c8499f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ds_routines.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="structure.cpp">
+      <Filter>Source Files\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="vector\vector.cpp">
+      <Filter>Source Files\ADT\vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Triedenie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ds_routines.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="heap_monitor.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="structure.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="structure_iterator.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="ds_structure_types.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="array\array.h">
+      <Filter>Header Files\ADT\array</Filter>
+    </ClInclude>
+    <ClInclude Include="list\array_list.h">
+      <Filter>Header Files\ADT\list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\linked_list.h">
+      <Filter>Header Files\ADT\list</Filter>
+    </ClInclude>
+    <ClInclude Include="list\list.h">
+      <Filter>Header Files\ADT\list</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_list.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_sorted_array_list.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_two_lists.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\heap.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="vector\vector.h">
+      <Filter>Header Files\ADT\vector</Filter>
+    </ClInclude>
+    <ClInclude Include="double_linked_list.h">
+      <Filter>Header Files\ADT\list</Filter>
+    </ClInclude>
+    <ClInclude Include="priority_queue\priority_queue_limited_sorted_array_list.h">
+      <Filter>Header Files\ADT\priority_queue</Filter>
+    </ClInclude>
+    <ClInclude Include="Kriterium.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="UzemnaJednotka.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\binary_tree.h">
+      <Filter>Header Files\ADT\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\k_way_tree.h">
+      <Filter>Header Files\ADT\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\multi_way_tree.h">
+      <Filter>Header Files\ADT\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="tree\tree.h">
+      <Filter>Header Files\ADT\tree</Filter>
+    </ClInclude>
+    <ClInclude Include="table\binary_search_tree.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\hash_table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\linked_table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\sequence_table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\sorted_sequence_table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\treap.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="table\unsorted_sequence_table.h">
+      <Filter>Header Files\ADT\table</Filter>
+    </ClInclude>
+    <ClInclude Include="ObecData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KriteriumUJ.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJNazov.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJPocetObyvatelov.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJZastavanost.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJPocetPreprodObyv.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJPocetProduktObyv.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJPocetPoprodObyv.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJCelkovaVymera.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJZastavanaPlocha.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="Filter.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaHodnoty.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="FilterPodlaIntervalu.h">
+      <Filter>Header Files\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="TypUzemnejJednotky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StromUzemneJednotky.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJTyp.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="KUJPrislusnost.h">
+      <Filter>Header Files\Kriterium</Filter>
+    </ClInclude>
+    <ClInclude Include="Triedenie.h">
+      <Filter>Header Files\Sort</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
